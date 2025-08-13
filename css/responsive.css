@@ -157,7 +157,7 @@
 
   .skill-item p {
   font-size: 0.8rem;
-  color: #000;
+  color: #555;
   line-height: 1.4;
   width: 6rem;
   font-family: "Montserrat";
@@ -181,6 +181,9 @@
   }
 
   /* real work section  */
+  .contact-left p >br{
+      display: none;
+  }
 
   .real-work .container-fluid{
       padding: 0;
@@ -201,8 +204,13 @@
     .real-work-text p {
       font-size: 0.8rem;
     }
+
+    .real-work-text p  br{
+         display: none;
+    }
     .real-work-text h5{
       font-size: 0.8rem;
+      font-weight: bold;
     }
       /* info bar container */
       .info-bar-container {
@@ -250,10 +258,5 @@
     text-align: center;
     padding-left: 0;
   }
-
-    
-
-
-
 }
 
