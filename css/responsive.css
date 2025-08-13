@@ -181,7 +181,7 @@
   }
 
   /* real work section  */
-  .contact-left p >br{
+  .contact-left p br{
       display: none;
   }
 
@@ -205,9 +205,9 @@
       font-size: 0.8rem;
     }
 
-    .real-work-text p  br{
-         display: none;
-    }
+    .real-work-text p br {
+  display: none;
+}
     .real-work-text h5{
       font-size: 0.8rem;
       font-weight: bold;
@@ -258,5 +258,6 @@
     text-align: center;
     padding-left: 0;
   }
+
 }
 
