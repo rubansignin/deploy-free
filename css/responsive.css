@@ -1,8 +1,8 @@
 /* For devices with a max-width of 767px (Mobile phones) */
 @media (max-width: 767px) {
   .top-bar {
-    padding-left: 2rem; 
-    padding-right: 1rem; 
+    padding-left: 2rem;  /* keep your left alignment */
+    padding-right: 1rem; /* small right space to prevent overflow */
   }
 
   .top-bar img {
@@ -87,10 +87,10 @@
     display: block;
 }
 
-  .peach-bar-left {
+.peach-bar-left {
   left: 0;
-  width: calc(100% + 4rem);
-  transform: translateX(-2rem); /* shift for visual */
+  width: calc(100% + 4rem); /* extra width beyond screen */
+  transform: translateX(-2rem); /* shift for visual bleed */
 }
 
   .peach-bar-right {
