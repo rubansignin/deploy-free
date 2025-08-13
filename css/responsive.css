@@ -88,9 +88,10 @@
 }
 
   .peach-bar-left {
-    left: -1rem; /* smaller offset so it doesn’t push layout */
-    width: 8rem;
-  }
+  left: 0;
+  width: calc(100% + 4rem); /* extra width beyond screen */
+  transform: translateX(-2rem); /* shift for visual bleed */
+}
 
   .peach-bar-right {
     right: -1rem;
