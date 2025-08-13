@@ -1,7 +1,7 @@
 /* For devices with a max-width of 767px (Mobile phones) */
 @media (max-width: 767px) {
   .top-bar {
-    padding: 1rem 2rem;
+    padding: 1rem 4rem;
     height: 70px; /* Smaller height on mobile */
   }
 
