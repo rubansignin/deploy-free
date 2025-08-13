@@ -90,7 +90,7 @@
   .peach-bar-left {
   left: 0;
   width: calc(100% + 4rem);
-  transform: translateX(-2rem); /* shift for visual bleed */
+  transform: translateX(-2rem); /* shift for visual */
 }
 
   .peach-bar-right {
