@@ -1,0 +1,259 @@
+/* For devices with a max-width of 767px (Mobile phones) */
+@media (max-width: 767px) {
+  .top-bar {
+    padding: 1rem 4rem;
+    height: 70px; /* Smaller height on mobile */
+  }
+
+  .top-bar img {
+    height: 40px;
+  }
+
+  .top-bar .btn-enquire {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  .hero {
+   height: calc(60vh - 50px);
+    padding-top: 75px;
+    align-items: center;
+  }
+
+  .hero .container {
+    padding: 0 15px;
+  }
+
+  .hero .col-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+    line-height: 1.1;
+  }
+
+  .hero h1 span {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 0.8rem;
+    /* margin-top: 1.5rem; */
+    max-width: 100%;
+    margin: 10px 0px 30px 0px;
+  }
+
+  .hero .btn-cta {
+   display: none;
+  }
+
+
+/* section 2  - bridal */ 
+
+.artist-title {
+    font-size: 1.8rem;
+    margin-top: -20px;
+    text-align: center;
+  
+}
+.artist-title br:nth-of-type(1) {
+    display: none;
+  }
+
+  .artist-subtitle {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #333;
+    font-family: 'Inter';
+    margin-top: -20px;
+    text-align: center;
+}
+
+.artist-description {
+  font-size: 0.8rem;
+  color: black;
+  line-height: 1.6;
+  font-family: 'Inter';
+  text-align: center;
+  margin-top: 25px;
+  padding: 0;
+}
+
+.peach-bar-left {
+    display: block;
+}
+
+  .artist-section {
+    padding: 40px 15px;
+    text-align: center;
+  }
+  .artist-section .row {
+    flex-direction: column;
+  }
+  .artist-section img {
+    width: 100%;
+    height: auto;
+  }
+  .img-fluid {
+  max-width: 65%;
+  z-index: 1;
+}
+
+/* bridal table section  */
+    .bridal-path-section {
+    padding: 40px 15px;
+    text-align: center;
+    margin: -3rem;
+  }
+  .bridal-path-section-h2{
+    font-size: 1.6rem;
+    margin-top: 0;
+  }
+  .bridal-path-section .card {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .bridal-path-section .carousel-control-prev,
+  .bridal-path-section .carousel-control-next {
+    width: 30px;
+  }
+  .bridal-path-section .btn {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .bridal-desktop { 
+    visibility: hidden; 
+    height: 0; 
+    overflow: hidden; 
+    opacity: 0; 
+  }
+  .bridal-mobile  { 
+    visibility: visible; 
+    height: auto; 
+    opacity: 1; 
+  }
+
+  /* skill section  */
+  .skills-grid {
+    gap: 20px; /* Adjust spacing between circles */
+    padding: 1rem 0;
+  }
+
+  .skill-item {
+    width: calc(33.33% - 15px); /* Forces three items per row with gaps */
+    max-width: none;
+    margin-bottom: 20px; /* Add some space between the rows */
+  }
+
+  .skill-item img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .skill-item p {
+  font-size: 0.8rem;
+  color: #555;
+  line-height: 1.4;
+  width: 6rem;
+  font-family: "Montserrat";
+  }
+
+  /* Remove the dotted line between skill items on mobile */
+  .skill-item:not(:last-child)::after {
+    display: none;
+  }
+
+  .skills-section-h1 {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+  }
+
+  .skills-section h2 {
+    font-size: 1.6rem;
+  }
+
+  /* real work section  */
+
+  .real-work .container-fluid{
+      padding: 0;
+  }
+
+    .real-work .carousel-inner img {
+    height: 470px;
+    object-fit: cover;
+    margin-top: -40px;
+    }
+  
+    .real-work-text {
+        padding: 15px;
+    }
+    .real-work-text h2{
+      font-size: 1.5rem;
+    }
+    .real-work-text p {
+      font-size: 0.8rem;
+    }
+    .real-work-text h5{
+      font-size: 0.8rem;
+    }
+      /* info bar container */
+      .info-bar-container {
+  background-color: #d3d3d3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  color: #4a4a4a;
+  padding: 16px 0px;
+  box-sizing: border-box;
+  font-size: 0.7rem;
+  font-weight: bold;
+  font-family: 'Inter';
+      }
+      .info-bar-item {
+        margin: 0;
+  text-align: center;
+  padding: 5px;
+      }
+/* footer  */
+
+      .footer-flex {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-left,
+  .footer-right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-contact-block {
+    align-items: center;
+  }
+
+  .footer-contact-item {
+    align-items: center;
+  }
+
+  .footer-contact-desc {
+    text-align: center;
+    padding-left: 0;
+  }
+
+    
+
+
+
+}
+
