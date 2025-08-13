@@ -415,7 +415,7 @@ section.real-work {
     height: 100%;
     object-fit: cover; */
     object-fit: cover;
-  max-width: 300px;
+  max-width: 340px;
   margin: 0 auto;
 }
 
@@ -495,6 +495,14 @@ section.real-work {
     border-radius: 50%;
     display: inline-block;
 }
+
+  .custom-prev{
+  margin-left: 150px;
+  }
+  
+  .custom-next{
+  margin-right: 150px;
+  }
 
 /* Hover effect */
 .custom-prev:hover,
